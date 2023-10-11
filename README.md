@@ -12,4 +12,4 @@ Features:
 Notes:
 
 Questions:
--How to change a boolean that is declared in an abstract parent class in a subclass (humanoid canBeAttacked down into Player)
+-How to change a boolean that is declared in an abstract parent class in a subclass (humanoid canBeAttacked down into src.Player)

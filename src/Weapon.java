@@ -1,3 +1,5 @@
+package src;
+
 public abstract class Weapon {
     private String weaponName;
     private int attackDamage;

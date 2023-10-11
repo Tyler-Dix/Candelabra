@@ -1,3 +1,5 @@
+package src;
+
 public final class Player extends Entity {
     private String playerName;
 

@@ -1,3 +1,5 @@
+package src;
+
 public abstract class Humanoid extends Entity {
 
     private int armorClass;

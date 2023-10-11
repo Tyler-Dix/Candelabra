@@ -1,3 +1,5 @@
+package src;
+
 public class Animal extends Entity{
 
     private boolean isQuadrupedal;
