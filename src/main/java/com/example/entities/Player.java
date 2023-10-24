@@ -1,4 +1,6 @@
-package com.example;
+package com.example.entities;
+
+import com.example.entities.Entity;
 
 public final class Player extends Entity {
     private String playerName;
@@ -14,6 +16,12 @@ public final class Player extends Entity {
 
     public void setPlayerName(String playerName) {
         this.playerName = playerName;
+    }
+
+    public void movePlayer(String direction){
+
+
+
     }
 
     //    public String getAttackDescription(String weaponName){

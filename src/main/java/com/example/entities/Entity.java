@@ -1,4 +1,4 @@
-package com.example;
+package com.example.entities;
 public abstract class Entity {
     private String name;
     private int health;

@@ -1,4 +1,4 @@
-package src;
+package com.example.entities;
 
 public class Animal extends Entity{
 

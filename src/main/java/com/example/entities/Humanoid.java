@@ -1,4 +1,6 @@
-package com.example;
+package com.example.entities;
+
+import com.example.entities.Entity;
 
 public abstract class Humanoid extends Entity {
 
