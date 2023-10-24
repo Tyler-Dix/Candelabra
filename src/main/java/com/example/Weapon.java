@@ -1,4 +1,4 @@
-package src;
+package com.example;
 
 public abstract class Weapon {
     private String weaponName;

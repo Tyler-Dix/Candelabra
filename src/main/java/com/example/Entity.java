@@ -1,5 +1,4 @@
-package src;
-
+package com.example;
 public abstract class Entity {
     private String name;
     private int health;

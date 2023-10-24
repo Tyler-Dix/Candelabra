@@ -1,9 +1,8 @@
-package src;
+package com.example;
 
 public abstract class Humanoid extends Entity {
 
     private int armorClass;
-    private
 
     public Humanoid(String name, int health, int armorClass, int defense, int attackDice, boolean canBeAttacked) {
         super(name, health, armorClass, defense, attackDice, canBeAttacked);
