@@ -33,13 +33,13 @@ public class CandelabraGame {
         surfaceGrid[playerXPosition][playerYPosition] = '-';
 
         // Update player position based on direction
-        if (direction.equalsIgnoreCase("W") && playerXPosition > 0) {
+        if (direction.equalsIgnoreCase("N") && playerXPosition > 0) {
             playerXPosition--;
         } else if (direction.equalsIgnoreCase("S") && playerXPosition < surfaceGrid.length - 1) {
             playerXPosition++;
-        } else if (direction.equalsIgnoreCase("A") && playerYPosition > 0) {
+        } else if (direction.equalsIgnoreCase("W") && playerYPosition > 0) {
             playerYPosition--;
-        } else if (direction.equalsIgnoreCase("D") && playerYPosition < surfaceGrid.length - 1) {
+        } else if (direction.equalsIgnoreCase("E") && playerYPosition < surfaceGrid.length - 1) {
             playerYPosition++;
         }
 
