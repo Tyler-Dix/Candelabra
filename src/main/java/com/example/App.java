@@ -1,6 +1,6 @@
 package com.example;
 
-import com.example.entities.Player;
+import com.example.view.CandelabraGame;
 
 import java.util.Scanner;
 

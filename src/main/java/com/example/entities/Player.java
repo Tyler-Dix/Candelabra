@@ -3,37 +3,21 @@ package com.example.entities;
 import com.example.entities.Entity;
 
 public final class Player extends Entity {
-    private String playerName;
+    private int transformation;
 
-    public Player(String name, int health, int armorClass, int defense, int attackDice, boolean canBeAttacked, String playerName) {
-        super(name, health, armorClass, defense, attackDice, canBeAttacked);
-        this.playerName = playerName;
+    public Player(String name, int[][] position, int health, List<> inventory,
+                  int baseDefense, int baseAttack, int equippedItem,
+                  String dialogue, boolean hostile, int transformation) {
+                    super(name, position, health, inventory, baseDefense,
+                            baseAttack, equippedItem, dialogue, hostile);
+                    this.transformation = transformation;
     }
 
-    public String getPlayerName() {
-        return playerName;
+    public int getTransformation() {
+        return transformation;
     }
 
-    public void setPlayerName(String playerName) {
-        this.playerName = playerName;
+    public void setTransformation(int transformation) {
+        this.transformation = transformation;
     }
-
-    public void movePlayer(String direction){
-
-
-
-    }
-
-    //    public String getAttackDescription(String weaponName){
-//        return "You attack the " + getEnemyName + " with your " + weaponName + "!";
-//    }
-
-//    public String getAttackDescription(String weaponName){
-//        return "You defend yourself from the " + getEnemyName + " with your " + defensiveItem + ".";
-//    }
-
-//    public int getPlayerDamage(){
-//        return getBaseAttack() + weapon.getAttackDamage;
-//    }
-
 }

@@ -1,4 +1,4 @@
-package com.example;
+package com.example.view;
 
 public class CandelabraGame {
 
