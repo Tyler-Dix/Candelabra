@@ -1,4 +1,7 @@
 package com.example.entities;
+
+import java.util.List;
+
 public abstract class Entity {
     private String name;
     private int position[][];
@@ -12,7 +15,7 @@ public abstract class Entity {
 
     //**************CONSTRUCTOR*********************
     public Entity(String name, int[][] position, int health,
-                  List<> inventory, int baseDefense, int baseAttack,
+                  List<String> inventory, int baseDefense, int baseAttack,
                   int equippedItem, String dialogue, boolean hostile) {
                     this.name = name;
                     this.position = position;
